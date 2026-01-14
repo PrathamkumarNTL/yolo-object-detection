@@ -1,0 +1,21 @@
+# YOLO outputs
+runs/
+
+# Model weights
+*.pt
+
+# Dataset images
+dataset/train/images/
+dataset/val/images/
+
+# Test / local images
+image/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
