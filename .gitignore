@@ -11,6 +11,9 @@ dataset/val/images/
 # Test / local images
 image/
 
+#ignore test_image.py file
+test_image.py
+
 # Python
 __pycache__/
 *.pyc
