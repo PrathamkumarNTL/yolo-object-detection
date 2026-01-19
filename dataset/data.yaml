@@ -1,13 +1,13 @@
 train: ../train/images
 val: ../valid/images
-test: ../test/images
 
-nc: 1
-names: ['apple']
+
+nc: 10
+names: ['apple', 'banana', 'carrot', 'cucumber', 'grapes', 'kiwi', 'onion', 'orange', 'potato', 'raddish']
 
 roboflow:
   workspace: appledetector
   project: apple-dataset-iyf5y
-  version: 1
+  version: 3
   license: CC BY 4.0
-  url: https://universe.roboflow.com/appledetector/apple-dataset-iyf5y/dataset/1
+  url: https://universe.roboflow.com/appledetector/apple-dataset-iyf5y/dataset/3
